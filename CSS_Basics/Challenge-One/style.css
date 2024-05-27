@@ -1,0 +1,24 @@
+#wrap {
+    background-color: rgb(118, 201, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 20px 15px 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding-left: 0px;
+    text-align: center;
+}
+
+li {
+    padding: 5px 0px 5px 0px;
+}
+
+li::first-letter {
+    font-size: x-large;
+}
