@@ -1,0 +1,17 @@
+.Number {
+    background-color: #fd8ade;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+#num_2 {
+ color: blue;
+ font-size: 36px;
+}
+.Cool {
+    font-size: 24px;
+}
+
+#num_4 {
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+}
