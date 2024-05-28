@@ -1,0 +1,43 @@
+header,
+#container {
+    width: 90%;
+
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+}
+
+.block {
+    border: 5px solid black;
+}
+
+.vert {
+    height: 70%;
+    width: 29%;
+}
+
+.red {
+    background-color: salmon;
+}
+
+.green {
+    background-color: olivedrab;
+}
+
+.yellow {
+    background-color: #de770f;
+}
+
+.horizont {
+    background-color: slateblue;
+    width: 95%;
+    height: 20%;
+}
+
+#container {
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}

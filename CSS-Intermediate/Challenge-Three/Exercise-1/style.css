@@ -1,0 +1,36 @@
+header,
+#container {
+    width: 90%;
+
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+}
+
+.block {
+    border: 5px solid black;
+    height: 18%;
+}
+
+.small {
+    background-color: salmon;
+    width: 20%;
+}
+
+.big {
+    background-color: skyblue;
+    width: 60%;
+}
+
+.extra {
+    background-color: wheat;
+    width: 90%;
+}
+
+#container {
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
