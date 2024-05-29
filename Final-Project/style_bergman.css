@@ -1,0 +1,5 @@
+article p,
+article ul {
+    text-indent: 2em;
+    text-align: justify;
+}
