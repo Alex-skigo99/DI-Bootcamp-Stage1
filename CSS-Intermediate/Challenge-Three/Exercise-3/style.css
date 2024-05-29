@@ -1,0 +1,46 @@
+header,
+#container {
+    width: 90%;
+
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+}
+
+.block {
+    border: 5px solid black;
+    height: 30%;
+    width: 30%;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.horizont {
+    background-color: green;
+    border: 5px solid black;
+    width: 95%;
+    height: 20%;
+}
+
+#container {
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
