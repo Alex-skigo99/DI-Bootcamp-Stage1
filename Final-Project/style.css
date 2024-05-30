@@ -1,0 +1,122 @@
+  html {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+
+  * {
+      box-sizing: border-box;
+      /* border: 1px solid black; */
+  }
+
+  #top-fix {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: fit-content;
+  }
+
+  body {
+      margin: 0;
+      padding-top: 130px;
+  }
+
+  main {
+      width: 70%;
+      margin: auto;
+  }
+
+  #top-fix,
+  footer {
+      background-color: rgb(136, 111, 101);
+      color: white;
+      margin: 0;
+  }
+
+  #title {
+      margin: 0;
+      font-size: 3em;
+      text-align: center;
+  }
+
+  article p,
+  article ul {
+      line-height: 1.6;
+      text-indent: 2em;
+      text-align: justify;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  #photo {
+      display: flex;
+      justify-content: center;
+  }
+
+  #photo img {
+      max-height: 160px;
+      border-radius: 8px;
+      margin: 5px;
+      box-shadow: 4px 4px 4px #000000;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+  }
+
+  #photo img:hover {
+      max-height: 300px;
+  }
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 2% 30% 2% 30%;
+  }
+
+  .menu {
+      color: white;
+      font-size: large;
+      text-decoration-line: none;
+  }
+
+  .menu:hover {
+      color: brown;
+  }
+
+  #films {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+  .movi {
+      display: block;
+      width: 30%;
+      margin: 1em 0;
+  }
+
+  .movi img:hover {
+      transform: rotate(45deg);
+  }
+
+  .movi img {
+      margin-top: .7em;
+  }
+
+  footer {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  footer div {
+      width: 45%;
+      margin: 2% 2%;
+  }
+
+  #Resources li {
+      margin-bottom: .5em;
+  }
+
+  #footer-copyright {
+      text-align: center;
+  }
