@@ -11,7 +11,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      height: fit-content;
+      height: 125px;
   }
 
   body {
@@ -57,7 +57,7 @@
       max-height: 160px;
       border-radius: 8px;
       margin: 5px;
-      box-shadow: 4px 4px 4px #000000;
+      box-shadow: 4px 4px 8px #000000;
       transition-duration: 1s;
       transition-timing-function: ease-in-out;
   }
@@ -70,7 +70,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      padding: 2% 30% 2% 30%;
+      padding: 1em 30% 1em 30%;
   }
 
   .menu {
@@ -95,12 +95,50 @@
       margin: 1em 0;
   }
 
-  .movi img:hover {
-      transform: rotate(45deg);
-  }
-
   .movi img {
       margin-top: .7em;
+      animation-name: move;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+      position: relative;
+  }
+
+  @keyframes move {
+      from {
+          transform: scaleX(1);
+          left: 0px;
+      }
+
+      to {
+          transform: scaleX(1.5);
+          left: 40px;
+      }
+  }
+
+
+  .movi img:hover {
+      transition-property: transform;
+      animation-name: rotate;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      position: relative;
+  }
+
+  @keyframes rotate {
+      from {
+          transform: rotate(0deg);
+          top: 0px;
+          left: 0px;
+      }
+
+      to {
+          transform: rotate(360deg);
+          top: -100px;
+          left: 100px;
+      }
   }
 
   footer {
